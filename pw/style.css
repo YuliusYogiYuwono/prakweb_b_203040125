@@ -1,7 +1,26 @@
-body {
-    background: url('img/bg4.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+* {
+    background-image: url(gambar/bg14.jpg);
+    font-family: "Trebuchet MS";
   }
+table {
+  border: solid 4px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 10px auto 10px auto;
+  color: #fff;
+}
+table thead th {
+    background-color: #DDEFEF;
+    border: solid 2px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+table tbody td {
+    border: solid 3px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
